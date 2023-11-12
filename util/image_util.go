@@ -142,11 +142,13 @@ func (i *ImageUtil) Base64() (string, error) {
 		return "", err
 	}
 
-	//开辟存储空间1
-	dist := make([]byte, buf.Cap()+buf.Len())
+	//开辟存储空间
+	// dist := make([]byte, buf.Cap()+buf.Len())
 	// buff转成base64
-	base64.StdEncoding.Encode(dist, buf.Bytes())
-	return string(dist), nil
+	// base64.StdEncoding.Encode(dist, buf.Bytes())
+	// return string(dist), nil
+
+	return base64.StdEncoding.EncodeToString(buf.Bytes()), nil
 }
 
 // VagueImage 模糊区域
