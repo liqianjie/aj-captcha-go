@@ -3,8 +3,6 @@ package util
 import (
 	"bytes"
 	"encoding/base64"
-	"github.com/TestsLing/aj-captcha-go/model/vo"
-	"github.com/golang/freetype"
 	"image"
 	"image/color"
 	"image/draw"
@@ -15,6 +13,9 @@ import (
 	"path/filepath"
 	"runtime"
 	"strings"
+
+	"github.com/TestsLing/aj-captcha-go/model/vo"
+	"github.com/golang/freetype"
 )
 
 type ImageUtil struct {
@@ -141,7 +142,7 @@ func (i *ImageUtil) Base64() (string, error) {
 		return "", err
 	}
 
-	//开辟存储空间
+	//开辟存储空间1
 	dist := make([]byte, buf.Cap()+buf.Len())
 	// buff转成base64
 	base64.StdEncoding.Encode(dist, buf.Bytes())
