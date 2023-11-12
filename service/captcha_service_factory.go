@@ -1,9 +1,10 @@
 package service
 
 import (
-	configIns "github.com/TestsLing/aj-captcha-go/config"
 	"log"
 	"sync"
+
+	configIns "github.com/liqianjie/aj-captcha-go/config"
 )
 
 // CaptchaServiceFactory 验证码服务工厂

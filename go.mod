@@ -1,4 +1,4 @@
-module github.com/TestsLing/aj-captcha-go
+module github.com/liqianjie/aj-captcha-go
 
 go 1.12
 

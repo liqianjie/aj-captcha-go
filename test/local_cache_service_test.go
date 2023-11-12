@@ -1,8 +1,9 @@
 package test
 
 import (
-	"github.com/TestsLing/aj-captcha-go/service"
 	"testing"
+
+	"github.com/liqianjie/aj-captcha-go/service"
 )
 
 func TestLocalCacheService_Increment(t *testing.T) {

@@ -3,13 +3,13 @@ package main
 import (
 	"encoding/json"
 	"errors"
-	config2 "github.com/TestsLing/aj-captcha-go/config"
-	"github.com/TestsLing/aj-captcha-go/const"
-	"github.com/TestsLing/aj-captcha-go/service"
 	"image/color"
 	"io/ioutil"
 	"log"
 	"net/http"
+
+	config2 "github.com/liqianjie/aj-captcha-go/config"
+	"github.com/liqianjie/aj-captcha-go/service"
 )
 
 type clientParams struct {

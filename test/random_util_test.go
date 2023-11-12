@@ -2,8 +2,9 @@ package test
 
 import (
 	"fmt"
-	"github.com/TestsLing/aj-captcha-go/util"
 	"testing"
+
+	"github.com/liqianjie/aj-captcha-go/util"
 )
 
 func TestRandomInt(t *testing.T) {

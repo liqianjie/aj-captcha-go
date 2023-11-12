@@ -14,8 +14,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/TestsLing/aj-captcha-go/model/vo"
 	"github.com/golang/freetype"
+	"github.com/liqianjie/aj-captcha-go/model/vo"
 )
 
 type ImageUtil struct {

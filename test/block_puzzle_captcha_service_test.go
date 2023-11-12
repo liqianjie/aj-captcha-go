@@ -2,10 +2,11 @@ package test
 
 import (
 	"fmt"
-	"github.com/TestsLing/aj-captcha-go/service"
-	"github.com/TestsLing/aj-captcha-go/util"
 	"image/color"
 	"testing"
+
+	"github.com/liqianjie/aj-captcha-go/service"
+	"github.com/liqianjie/aj-captcha-go/util"
 )
 
 func TestBlockPuzzleCaptchaService_Get(t *testing.T) {

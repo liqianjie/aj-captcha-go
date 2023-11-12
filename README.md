@@ -102,7 +102,7 @@ func NewConfig() *Config {
 ## Installation
 
 ```bash
-go get -u github.com/TestsLing/aj-captcha-go
+go get -u github.com/liqianjie/aj-captcha-go
 ```
 
 ## Usage
@@ -113,9 +113,9 @@ go get -u github.com/TestsLing/aj-captcha-go
 package main
 
 import (
-	config2 "github.com/TestsLing/aj-captcha-go/config"
-	"github.com/TestsLing/aj-captcha-go/service"
-	"github.com/TestsLing/aj-captcha-go/const"
+	config2 "github.com/liqianjie/aj-captcha-go/config"
+	"github.com/liqianjie/aj-captcha-go/service"
+	"github.com/liqianjie/aj-captcha-go/const"
 	"github.com/gin-gonic/gin"
 )
 

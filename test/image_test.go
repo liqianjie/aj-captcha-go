@@ -1,8 +1,9 @@
 package test
 
 import (
-	i "github.com/TestsLing/aj-captcha-go/util/image"
 	"testing"
+
+	i "github.com/liqianjie/aj-captcha-go/util/image"
 )
 
 func TestImage_GetBackgroundImage(t *testing.T) {

@@ -4,11 +4,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	constant "github.com/TestsLing/aj-captcha-go/const"
-	"github.com/TestsLing/aj-captcha-go/model/vo"
-	"github.com/TestsLing/aj-captcha-go/util"
-	img "github.com/TestsLing/aj-captcha-go/util/image"
 	"log"
+
+	constant "github.com/liqianjie/aj-captcha-go/const"
+	"github.com/liqianjie/aj-captcha-go/model/vo"
+	"github.com/liqianjie/aj-captcha-go/util"
+	img "github.com/liqianjie/aj-captcha-go/util/image"
 )
 
 const (

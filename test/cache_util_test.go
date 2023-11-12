@@ -1,9 +1,10 @@
 package test
 
 import (
-	"github.com/TestsLing/aj-captcha-go/util"
 	"testing"
 	"time"
+
+	"github.com/liqianjie/aj-captcha-go/util"
 )
 
 func TestCacheUtil_Exists(t *testing.T) {
