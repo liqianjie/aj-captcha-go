@@ -5,6 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
+	"github.com/liqianjie/aj-captcha-go/constant"
 	"github.com/liqianjie/aj-captcha-go/util"
 )
 

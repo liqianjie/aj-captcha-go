@@ -9,6 +9,7 @@ import (
 	"net/http"
 
 	config2 "github.com/liqianjie/aj-captcha-go/config"
+	"github.com/liqianjie/aj-captcha-go/constant"
 	"github.com/liqianjie/aj-captcha-go/service"
 )
 

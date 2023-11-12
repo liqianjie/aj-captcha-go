@@ -7,7 +7,7 @@ import (
 	"log"
 	"math"
 
-	constant "github.com/liqianjie/aj-captcha-go/const"
+	constant "github.com/liqianjie/aj-captcha-go/constant"
 	"github.com/liqianjie/aj-captcha-go/model/vo"
 	"github.com/liqianjie/aj-captcha-go/util"
 	img "github.com/liqianjie/aj-captcha-go/util/image"
