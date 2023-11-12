@@ -4,6 +4,8 @@ import (
 	"errors"
 	"image/color"
 	"strings"
+
+	"github.com/liqianjie/aj-captcha-go/constant"
 )
 
 // WatermarkConfig 水印设置
